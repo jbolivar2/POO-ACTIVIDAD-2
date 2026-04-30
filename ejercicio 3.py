@@ -75,8 +75,6 @@ class Automovil:
         print("Velocidad máxima =", self.velocidad_max)
         print("Color =", self.color.name)
 
-
-
 auto = Automovil(
     "Ford", 2018, 3,
     TipoCombustible.DIESEL,
