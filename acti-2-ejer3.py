@@ -1,6 +1,4 @@
 from enum import Enum
-
-# Enum para el tipo de planeta
 class TipoPlaneta(Enum):
     GASEOSO = "GASEOSO"
     TERRESTRE = "TERRESTRE"
@@ -36,8 +34,6 @@ class Planeta:
         limite = 149_597_870 * 3.4
         return self.distancia_sol > limite
 
-
-# main
 p1 = Planeta(
     "Tierra", 1, 5.9736E24, 1.08321E12,
     12742, 150_000_000, TipoPlaneta.TERRESTRE, True
